@@ -1,3 +1,8 @@
+// Подключение конфига
+var config = require('./config.json');
+// Использование конфига
+console.dir(config);
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
