@@ -44,12 +44,12 @@ app.post('/send', (req, res) => {
     `;
     
 let smtpConfig = {
-    host: 'cf716.hc.ru',
+    host: '***',
     port: 465,
     secure: true, // use SSL
     auth: {
-        user: 'info@c24802.shared.hc.ru',
-        pass: 'ou[kDg6{^-Wu'
+        user: '***',
+        pass: '***'
     }
 };
 let transporter = nodemailer.createTransport(smtpConfig);
